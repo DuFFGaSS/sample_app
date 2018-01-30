@@ -13,3 +13,11 @@
 //= require rails-ujs
 //= require turbolinks
 //= require_tree .
+*= require plyr
+ $(document).ready(function(){  
+    plyr.setup();	
+  });
+   $(document).on("turbolinks:load", function() {
+    plyr.setup();	
+  });
+   //= require plyr
