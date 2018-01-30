@@ -10,5 +10,7 @@ class StaticPagesController < ApplicationController
 
   def contact
   end
-
+  
+  def run
+  end
 end
