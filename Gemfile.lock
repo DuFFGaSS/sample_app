@@ -263,6 +263,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  bcrypt (= 3.1.11)
   bcrypt-ruby
   bootstrap-sass (= 3.3.7)
   byebug
