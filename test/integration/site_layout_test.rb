@@ -9,7 +9,7 @@ test "layout links" do
     assert_select "a[href=?]", help_path
     assert_select "a[href=?]", about_path
     assert_select "a[href=?]", contact_path
-    assert_select "a[href=?]", run_path
+    assert_select "a[href=?]", myplayer_path
 
 end
 end
