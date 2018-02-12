@@ -16,7 +16,7 @@
 //= require bootstrap
 //= require rails-ujs
 
-//= require_tree .
+
 //= require turbolinks
 //= require plyr
 *= require plyr
@@ -26,4 +26,4 @@
    $(document).on("turbolinks:load", function() {
     plyr.setup();	
   });
-   
+   //= require_tree .
