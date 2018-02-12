@@ -15,8 +15,9 @@
 //= require jquery_ujs
 //= require bootstrap
 //= require rails-ujs
-//= require turbolinks
+
 //= require_tree .
+//= require turbolinks
 //= require plyr
 *= require plyr
  $(document).ready(function(){  
