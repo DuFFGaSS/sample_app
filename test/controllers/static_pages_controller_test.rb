@@ -29,5 +29,10 @@ class StaticPagesControllerTest < ActionDispatch::IntegrationTest
     get myplayer_path
     assert_response :success
     assert_select "title", "My player | Ruby on Rails Tutorial Sample App"
-end
+  end
+test "should get o372" do
+    get o372_path
+    assert_response :success
+    assert_select "title", "0372 | Ruby on Rails Tutorial Sample App"
+  end
 end

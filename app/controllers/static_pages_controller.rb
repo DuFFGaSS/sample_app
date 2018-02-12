@@ -11,6 +11,10 @@ class StaticPagesController < ApplicationController
   def contact
   end
   
-  def run
+  def myplayer
+  end
+
+  def o372
   end
 end
+

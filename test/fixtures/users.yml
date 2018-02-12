@@ -1,4 +1,10 @@
 admin:
   name: Admin
-  email: admin@adad.com
+  email: duffgass30@gmail.com
+  password_digest: <%= User.digest('password') %>
+  admin: true
+  
+archer:
+  name: Sterling Archer
+  email: duchess@example.gov
   password_digest: <%= User.digest('password') %>
