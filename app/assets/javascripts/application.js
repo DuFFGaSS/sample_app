@@ -10,10 +10,11 @@
 // Read Sprockets README (https://github.com/rails/sprockets#sprockets-directives) for details
 // about supported directives.
 //
-//= require bootstrap-sprockets
 //= require jquery
 //= require jquery.turbolinks
 //= require jquery_ujs
+// Load all Bootstrap JavaScript
+//= require bootstrap-sprockets
 //= require rails-ujs
 
 //= require plyr
@@ -26,5 +27,5 @@
    $(document).on("turbolinks:load", function() {
     plyr.setup();	
   });
-   //= require_tree .
    //= require turbolinks
+   //= require_tree .
