@@ -11,11 +11,11 @@
 // about supported directives.
 //
 //= require jquery
-//= require jquery.turbolinks
+
 //= require jquery_ujs
 // Load all Bootstrap JavaScript
 //= require bootstrap-sprockets
-//= require rails-ujs
+
 
 //= require plyr
 
