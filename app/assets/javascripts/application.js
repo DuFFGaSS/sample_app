@@ -17,8 +17,7 @@
 //= require rails-ujs
 
 
-//= require turbolinks
-//= require plyr
+
 *= require plyr
  $(document).ready(function(){  
     plyr.setup();	
@@ -27,3 +26,5 @@
     plyr.setup();	
   });
    //= require_tree .
+   //= require turbolinks
+//= require plyr
