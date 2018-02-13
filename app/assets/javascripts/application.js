@@ -11,15 +11,10 @@
 // about supported directives.
 //
 //= require jquery
-
 //= require jquery_ujs
 // Load all Bootstrap JavaScript
-//= require bootstrap-sprockets
-
-
+//= require bootstrap
 //= require plyr
-
-
 *= require plyr
  $(document).ready(function(){  
     plyr.setup();	
@@ -27,5 +22,5 @@
    $(document).on("turbolinks:load", function() {
     plyr.setup();	
   });
-   //= require turbolinks
-   //= require_tree .
+//= require turbolinks
+//= require_tree .
