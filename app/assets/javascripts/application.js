@@ -16,7 +16,7 @@
 // Load all Bootstrap JavaScript
 //= require bootstrap-sprockets
 //= require rails-ujs
-//= require turbolinks
+
 //= require plyr
 
 
@@ -28,3 +28,4 @@
     plyr.setup();	
   });
    //= require_tree .
+   //= require turbolinks
